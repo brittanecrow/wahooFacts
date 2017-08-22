@@ -1,0 +1,22 @@
+{
+  "name": "wahoo_facts",
+  "version": "1.0.0",
+  "description": "A super simple Alexa skill that retrieves UVA fun facts.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/brittanecrow/wahooFacts.git"
+  },
+  "author": "Brittany Crow",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/brittanecrow/wahooFacts/issues"
+  },
+  "homepage": "https://github.com/brittanecrow/wahooFacts#readme",
+  "dependencies": {
+    "alexa-sdk": "^1.0.12"
+  }
+}
