@@ -1,17 +1,17 @@
 'use strict';
 const Alexa = require('alexa-sdk');
 const facts = require('./facts.js');
-const APP_ID = "_";
+const APP_ID = "amzn1.ask.skill.34710aaa-df12-4bc0-904f-f0416dc678e0";
 const SKILL_NAME = "Wahoo Facts";
-const HELP_MESSAGE = "You can ask me for a fun fact about U. V. A. Ask for a fact.";
+const HELP_MESSAGE = "You can ask me for a fun fact about U.V.A. Ask for a fact.";
 const HELP_REPROMPT = "Ask me to tell you a fact.";
 const STOP_MESSAGE = "Goodbye and wah who wah!";
 
 function getFact(){
-  var index = Math.floor(Math.random() * facts.length);
+  var index = Math.floor(Math.random() * facts['facts'].length);
   var factArray = facts['facts'];
   var selectedFact = factArray[index];
-  return fact;
+  return selectedFact;
 }
 
 const handlers = {
